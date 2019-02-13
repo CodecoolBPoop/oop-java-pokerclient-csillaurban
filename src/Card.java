@@ -4,6 +4,10 @@ public class Card {
 
     String cardCode;
 
+    public String getCardCode() {
+        return cardCode;
+    }
+
     public Card(String cardCode) throws IllegalArgumentException {
         this.cardCode = cardCode;
 
