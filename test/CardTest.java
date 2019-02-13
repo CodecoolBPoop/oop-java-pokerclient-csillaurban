@@ -32,7 +32,7 @@ class CardTest {
 
     @Test
     @DisplayName("Testing getValue() method")
-    void getValue() {
+    void testGetValue() {
         Card cardWithNumber = new Card("d3");
         Card cardWithLetter = new Card("dk");
         assertEquals(3, cardWithNumber.getValue());
